@@ -1,0 +1,22 @@
+<!--Peça para o usuário digitar o seu peso e a sua altura. Calcule e mostre seu IMC. Caso o IMC for menos que 22, mostre que ele está abaixo do peso ideal; entre 22 e 26 está com peso adequado. Acima de 26 está com sobrepeso e acima de 32 está com obesidade. -->
+<!DOCTYPE hml>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Exercício 02</title>
+    </head>
+    <body>
+        <h2>Digite sua altura:</h2>
+        <label>
+            <input type="number" id="altura">
+        </label>
+        <h2>Digite seu peso:</h2>
+        <label>
+            <input type="number" id="peso">
+        </label>
+        <input type="button" value="Peso ideal" onclick="calcular()"/>
+        <input type="button" value="Limpar" onclick="limpar()"/>
+        <div id="resp"></div>
+        <script src="exercicio02.js"></script>
+    </body>
+</html>
